@@ -1,0 +1,57 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #3C5B6F;
+}
+
+#heading {
+    padding: 40px;
+}
+
+h1, h4 {
+    color: white !important;
+}
+
+.map {
+    color: white;
+}
+
+.ui.items > .item {
+    background-color: #DFD0B8 !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    padding: 20px !important;
+}
+
+.ui.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#pagination {
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: top 0.5s ease-in-out;
+}
+
+#foot {
+    padding: 60px;
+    margin-top: 100px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+

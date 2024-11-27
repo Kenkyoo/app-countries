@@ -1,0 +1,73 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoFinder - Buscador de Países</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+</head>
+
+<body>
+  <header id="header">
+    <div class="ui inverted segment">
+      <div class="ui inverted secondary pointing menu">
+        <a href="#header" class="active item">Home</a>
+        <a href="#main" class="item">Menu</a>
+        <a href="#footer" class="item">Contact</a>
+      </div>
+    </div>
+    <div class="ui container" id="heading">
+      <div class="ui placeholder segment theme-color">
+        <div class="ui icon header">
+          <i class="map marker alternate icon"></i>
+          <h1 class="ui huge header">GeoFinder</h1>
+        </div>
+        <div class="inline">
+          <h4 class="ui sub header">Encuentra el Mundo a tu Alcance</h4>
+        </div>
+      </div>
+    </div>
+    <div class="padded grid">
+      <div class="row" id="flag-container">
+        <div class="column">
+          <div class="ui icon menu theme-color" id="pagination"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <div class="ui one column centered grid theme-color">
+      <div class="column">
+        <div class="ui text container">
+          <div class="ui search">
+            <div class="ui icon input">
+              <input class="prompt" type="text" placeholder="Search countries...">
+              <i class="search icon"></i>
+            </div>
+            <div class="results"></div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="ui text container">
+          <div class="ui items" id="result"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="footer">
+    <div class="ui basic center aligned inverted segment" id="foot">
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
